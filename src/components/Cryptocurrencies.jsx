@@ -19,7 +19,7 @@ const Cryptocurrencies = ({ simplified }) => {
 
   }, [cryptosList, searchTerm]);
   if(isFetching) return 'Loading ...';
-  
+
   return (
     <>
 
